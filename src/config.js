@@ -1,6 +1,6 @@
 const Config = {
     SCREEN_WIDTH: 320,
-    SCREEN_HEIGHT: 240,
+    SCREEN_HEIGHT: 280,
     RENDER_ID: 'game',
 
     TILE_SIZE: 32,
@@ -15,7 +15,7 @@ const Config = {
 Config.VIEWPORT_TILE_WIDTH = Config.SCREEN_WIDTH / Config.TILE_SIZE
 Config.VIEWPORT_TILE_HEIGHT = Config.SCREEN_HEIGHT / Config.TILE_SIZE
 
-// const maxX = maxMapX * tileSize
-// const maxY = maxMapY * tileSize
+//const maxX = maxMapX * tileSize
+//const maxY = maxMapYY * tileSize
 
 export default Config;
