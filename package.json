@@ -1,34 +1,34 @@
 {
-  "name": "phaser-webpack-babel-boilerplate",
-  "version": "1.0.0",
-  "description": "phaser-webpack-babel-boilerplate =======",
-  "dependencies": {
-    "babel-core": "^5.8.34",
-    "babel-loader": "^5.4.0",
-    "phaser-shim": "^2.4.7",
-    "script-loader": "^0.6.1",
-    "webpack": "^1.12.11",
-    "webpack-dev-server": "^1.14.1",
-    "webpack-error-notification": "^0.1.6"
-  },
-  "devDependencies": {
-    "babel-core": "^5.8.35",
-    "babel-loader": "^5.3.2",
-    "webpack": "^1.12.14",
-    "webpack-dev-server": "^1.12.1",
-    "webpack-error-notification": "^0.1.4"
-  },
+  "name": "phaser-es6-boilerplate",
+  "version": "1.0.2",
+  "description": "Tiny flexible template for writing Phaser games in ES6/ES2015 with Babel.",
+  "main": "src/index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot"
+    "start": "gulp",
+    "production": "gulp --production"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anaibol/phaser-webpack-babel-boilerplate.git"
+    "url": "https://github.com/belohlavek/phaser-es6-boilerplate"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/anaibol/phaser-webpack-babel-boilerplate/issues"
+  "author": "Daniel Belohlavek",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "babelify": "^7.2.0",
+    "browser-sync": "^2.12.3",
+    "browserify": "^13.0.0",
+    "del": "^2.2.0",
+    "exorcist": "^0.4.0",
+    "gulp": "^3.9.1",
+    "gulp-buffer": "0.0.2",
+    "gulp-if": "^2.0.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "vinyl-source-stream": "^1.1.0",
+    "yargs": "^4.6.0"
   },
-  "homepage": "https://github.com/anaibol/phaser-webpack-babel-boilerplate#readme"
+  "dependencies": {
+    "phaser": "^2.4.7"
+  }
 }

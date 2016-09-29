@@ -1,4 +1,4 @@
-node_modules/
-./DS_Store
-npm-debug.log
-src/game.js
+node_modules
+build
+*.log
+*.tmp

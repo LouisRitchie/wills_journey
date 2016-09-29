@@ -1,9 +1,13 @@
-import config from './config'
-//import Boot from './boot'
-import Game from './Game'
-import Play from './states/Play'
+import GameState from 'states/GameState';
 
-window.game = new Game(config.SCREEN_WIDTH, config.SCREEN_HEIGHT)
+class Game extends Phaser.Game {
 
-game.state.add('Play', Play)
-game.state.start('Play')
+	constructor() {
+		super(500, 500, Phaser.AUTO, 'content', null);
+		this.state.add('GameState', GameState, false);
+		this.state.start('GameState');
+	}
+
+}
+
+new Game();
