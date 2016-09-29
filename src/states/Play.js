@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import Player from '../Player'
 import config from '../config'
 
