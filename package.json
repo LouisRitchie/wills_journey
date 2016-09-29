@@ -19,7 +19,7 @@
     "webpack-error-notification": "^0.1.4"
   },
   "scripts": {
-    "start": "webpack-dev-server --hot --host=deppth.me"
+    "start": "webpack-dev-server --hot"
   },
   "repository": {
     "type": "git",
